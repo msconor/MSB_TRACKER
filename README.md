@@ -4,6 +4,7 @@ An Android and web-based application for tracking, managing, and redeeming rewar
 
 🚀 Features
 •  User authentication using mobile numbers.
+
 •  Firebase Realtime Database integration for storing user points.
 •  OTP-based login and authentication.
 •  Reward points system: 1 point = ₹5, redeemable during payments.
