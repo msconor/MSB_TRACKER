@@ -1,6 +1,6 @@
 # MSB_TRACKER
 An Android and web-based application for tracking, managing, and redeeming reward points across multiple platforms.
-<img src="https://github.com/msconor/MSB_TRACKER/blob/50974e74c3781832b5c116c29cbd9a0f09dd44f6/pic1.jpg" alt="Description" width="600">
+<img src="https://github.com/msconor/MSB_TRACKER/blob/50974e74c3781832b5c116c29cbd9a0f09dd44f6/pic1.jpg" alt="Description" width="100">
 
 
 🚀 Features
