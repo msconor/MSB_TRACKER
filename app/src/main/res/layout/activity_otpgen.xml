@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".otpgen">
+    <ImageView
+        android:id="@+id/img_otp"
+        android:layout_width="79.43dp"
+        android:layout_height="106.91dp"
+        android:layout_marginLeft="157dp"
+        android:layout_marginRight="156.57dp"
+        android:layout_marginTop="146dp"
+        android:layout_marginBottom="599.09dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/img_otp" />
+
+    <TextView
+        android:id="@+id/text_otp_authentication"
+        android:layout_width="215dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="269.5dp"
+        android:layout_marginBottom="-3.5dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:lineHeight="24dp"
+        android:maxLines="2"
+        android:text="OTP AUTHENTICATION"
+        android:textColor="#FF000000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/text_sent_code"
+        android:layout_width="393dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="299dp"
+        android:layout_marginBottom="-2dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:lineHeight="24dp"
+        android:maxLines="2"
+        android:text="We’ve sent a code to your mobile number"
+        android:textColor="#FF000000"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/img_otp_placeholder"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="351dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/img_otp_placeholder" />
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="50dp"/>
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="100dp"/>
+    <EditText
+        android:id="@+id/num3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="160dp"/>
+    <EditText
+        android:id="@+id/num4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="352dp"
+        android:layout_marginLeft="220dp"/>
+    <EditText
+        android:id="@+id/num5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="352dp"
+        android:layout_marginLeft="270dp"/>
+    <EditText
+        android:id="@+id/num6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="352dp"
+        android:layout_marginLeft="330dp"/>
+
+
+    <FrameLayout
+        android:id="@+id/container_login_button"
+        android:layout_width="240dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="77dp"
+        android:layout_marginTop="453dp"
+        android:layout_gravity="top|left">
+
+        <ImageView
+            android:id="@+id/img_rectangle"
+            android:layout_width="match_parent"
+            android:layout_height="35.59dp"
+            android:layout_marginTop="8.9dp"
+            android:layout_marginBottom="10.51dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_rectangle" />
+
+        <TextView
+            android:id="@+id/text_login"
+            android:layout_width="231.93dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="4.03dp"
+            android:layout_marginRight="4.03dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:lineHeight="30dp"
+            android:maxLines="2"
+            android:text="Verify"
+            android:textColor="#FF000000"
+            android:textSize="20dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container_group"
+        android:layout_width="371dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="-14dp"
+        android:layout_marginTop="415dp"
+        android:layout_gravity="top|left">
+
+        <TextView
+            android:id="@+id/text_didnt_get_code"
+            android:layout_width="297dp"
+            android:layout_height="27dp"
+            android:layout_gravity="left"
+            android:alpha="0.800000011920929"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Didn’t get the code ?"
+            android:textColor="#FF000000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/text_resend_code"
+            android:layout_width="match_parent"
+            android:layout_height="21dp"
+            android:layout_marginLeft="235dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_marginBottom="-1.5dp"
+            android:layout_gravity="top"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Resend Code"
+            android:textColor="#FF00BFA6"
+            android:textSize="16dp" />
+    </FrameLayout>
+</FrameLayout>
+

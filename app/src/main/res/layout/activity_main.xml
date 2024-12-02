@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="310dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="680dp"
+        android:layout_gravity="top|left">
+
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="match_parent"
+            android:layout_height="35.59dp"
+            android:layout_marginTop="8.9dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10.51dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/drawable_image_1" />
+
+        <TextView
+            android:layout_width="299.58dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5.21dp"
+            android:layout_marginRight="5.21dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:lineHeight="30dp"
+            android:maxLines="2"
+            android:text="GET OTP"
+            android:textColor="#FF000000"
+            android:textSize="20dp" />
+
+    </FrameLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="630dp"
+        android:textColor="#939292"
+        android:text="We will send you One Time Password"
+        android:textSize="15dp">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="482dp"
+        android:layout_height="324dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="-31dp"
+        android:layout_marginTop="-20dp"
+        android:background="@drawable/drawable_shape_1"
+        android:scaleType="centerInside" />
+
+
+
+
+
+    <FrameLayout
+        android:layout_width="310dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="550dp"
+        android:layout_gravity="top|center_horizontal"
+        android:background="@drawable/drawable_shape_2">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/drawable_image" />
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:background="@null"
+           android:layout_marginLeft="6.5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="-2dp"
+            android:gravity="center"
+            android:hint="Mobile Number"
+            android:includeFontPadding="false"
+            android:lineHeight="24dp"
+            android:maxLines="2"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+    </FrameLayout>
+
+    <!--<FrameLayout
+        android:layout_width="310dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="601dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/drawable_shape_3">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/drawable_image" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="299dp"
+            android:layout_height="44dp"
+            android:background="@null"
+            android:layout_gravity="left"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:hint="Password"
+            android:includeFontPadding="false"
+            android:lineHeight="22.5dp"
+            android:maxLines="2"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+    </FrameLayout>-->
+
+    <ImageView
+        android:layout_width="362dp"
+        android:layout_height="223dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="top|center_horizontal"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_3" />
+
+    <TextView
+        android:layout_width="390dp"
+        android:layout_height="64.55dp"
+        android:layout_marginTop="397.73dp"
+        android:layout_marginBottom="-5.27dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:lineHeight="34.55dp"
+        android:maxLines="2"
+        android:text="REWARDS TRACKER "
+        android:textColor="#FF2F2E41"
+        android:textSize="24dp" />
+
+    <!--<TextView
+        android:layout_width="276dp"
+        android:layout_height="77dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="-30dp"
+        android:layout_marginTop="625dp"
+        android:layout_marginBottom="-6dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:lineHeight="21dp"
+        android:maxLines="4"
+        android:text="Forgot Password ?"
+        android:textColor="#FF000000"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="349dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginTop="734dp"
+        android:layout_gravity="top|left"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Already having a account:"
+        android:textColor="#FF000000"
+        android:textSize="14dp" />
+
+    <FrameLayout
+        android:layout_width="224dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="734dp"
+        android:layout_gravity="top|left">
+
+        <TextView
+            android:id="@+id/sign"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Signup"
+            android:textColor="#FF00BFA6"
+            android:clickable="true"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textSize="14dp" />
+    </FrameLayout>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:layout_marginTop="443dp"
+        android:layout_gravity="top|left"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Easy access platform for all your rewards"
+        android:textColor="#FF00BFA6"
+        android:textSize="15dp" />
+
+</FrameLayout>

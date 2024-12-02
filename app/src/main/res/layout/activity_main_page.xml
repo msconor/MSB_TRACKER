@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPage">
+    <ImageView
+        android:layout_width="479.49dp"
+        android:layout_height="134dp"
+        android:layout_marginLeft="-67dp"
+        android:layout_marginTop="-25dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_111" />
+
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="-14dp"
+        android:layout_marginTop="593dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_11" />
+
+    <ImageView
+        android:layout_width="59.22dp"
+        android:layout_height="60.77dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="417dp"
+        android:layout_gravity="top|left"
+        android:alpha="0.5"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_12" />
+
+    <ImageView
+        android:layout_width="331.63dp"
+        android:layout_height="323.61dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginRight="22.37dp"
+        android:layout_marginTop="555dp"
+        android:layout_marginBottom="-26.61dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_13" />
+
+    <FrameLayout
+        android:layout_width="752.78dp"
+        android:layout_height="573.16dp"
+        android:layout_marginLeft="-275dp"
+        android:layout_marginTop="460dp"
+        android:layout_gravity="top|left">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="523.63dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="top"
+            android:background="@drawable/drawable_shape_33"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="577.94dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="124dp"
+            android:layout_marginBottom="0dp"
+            android:layout_gravity="left"
+            android:background="@drawable/drawable_shape_34"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="98.14dp"
+            android:layout_marginLeft="562dp"
+            android:layout_marginRight="92.43dp"
+            android:layout_marginTop="95dp"
+            android:layout_gravity="top"
+            android:alpha="0.4000000059604645"
+            android:scaleType="centerCrop"
+            android:src="@drawable/drawable_image_14" />
+    </FrameLayout>
+
+        <ImageView
+            android:id="@+id/menu"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_15" />
+
+
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="341dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="69dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="TextView"
+        android:textColor="#FF000000"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="26dp" />
+
+    <FrameLayout
+        android:layout_width="418dp"
+        android:layout_height="226.13dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="109dp"
+        android:layout_gravity="top|left">
+
+        <ImageView
+            android:layout_width="389dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="13dp"
+            android:layout_gravity="top|left"
+            android:background="@drawable/drawable_shape_5"
+            android:scaleType="centerInside" />
+
+
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="122dp"
+            android:layout_marginRight="96dp"
+            android:layout_marginTop="45dp"
+            android:layout_gravity="top"
+            android:gravity="left|top"
+            android:includeFontPadding="false"
+            android:lineHeight="36dp"
+            android:text="Fashion Brand"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="#FFFFFFFF"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="47dp"
+            android:layout_gravity="top|left"
+            android:scaleType="centerInside"
+            android:src="@drawable/drawable_image_16" />
+
+        <TextView
+            android:id="@+id/points1"
+            android:layout_width="136dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="96dp"
+            android:layout_gravity="top|left"
+            android:gravity="left|top"
+            android:includeFontPadding="false"
+            android:lineHeight="21dp"
+            android:text="TextView"
+            android:textColor="#79FC41"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_marginLeft="239dp"
+            android:layout_marginTop="96dp"
+            android:layout_gravity="top">
+
+            <TextView
+                android:id="@+id/r1"
+                android:layout_width="179dp"
+                android:layout_height="31dp"
+                android:gravity="left|top"
+                android:includeFontPadding="false"
+                android:lineHeight="21dp"
+                android:text="Redeem Now"
+                android:textColor="#FFFFFFFF"
+                android:textSize="14dp" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="418dp"
+        android:layout_height="226.13dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="385dp"
+        android:layout_gravity="top|left">
+
+        <ImageView
+            android:layout_width="389dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="top|left"
+            android:background="@drawable/drawable_shape_7"
+            android:scaleType="centerInside" />
+
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="122dp"
+            android:layout_marginRight="96dp"
+            android:layout_marginTop="45dp"
+            android:layout_gravity="top"
+            android:gravity="left|top"
+            android:includeFontPadding="false"
+            android:lineHeight="36dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Electro Mart"
+            android:textColor="#FFFFFFFF"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/points3"
+            android:layout_width="136dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="96dp"
+            android:layout_gravity="top|left"
+            android:gravity="left|top"
+            android:includeFontPadding="false"
+            android:lineHeight="21dp"
+            android:text="TextView"
+            android:textColor="#79FC41"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_marginLeft="239dp"
+            android:layout_marginTop="96dp"
+            android:layout_gravity="top">
+
+            <TextView
+                android:id="@+id/redeem3"
+                android:layout_width="179dp"
+                android:layout_height="31dp"
+                android:gravity="left|top"
+                android:includeFontPadding="false"
+                android:lineHeight="21dp"
+                android:text="Redeem Now"
+                android:textColor="#FFFFFFFF"
+                android:textSize="14dp" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="418dp"
+        android:layout_height="226.13dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="247dp"
+        android:layout_gravity="top|left">
+
+        <ImageView
+            android:layout_width="389dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="top|left"
+            android:background="@drawable/drawable_shape_9"
+            android:scaleType="centerInside" />
+
+
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="122dp"
+            android:layout_marginRight="96dp"
+            android:layout_marginTop="45dp"
+            android:layout_gravity="top"
+            android:gravity="left|top"
+            android:includeFontPadding="false"
+            android:lineHeight="36dp"
+            android:text="Grocery wala"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="#FFFFFFFF"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/points2"
+            android:layout_width="136dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="96dp"
+            android:layout_gravity="top|left"
+            android:gravity="left|top"
+            android:includeFontPadding="false"
+            android:lineHeight="21dp"
+            android:text="TextView"
+            android:textColor="#79FC41"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_marginLeft="239dp"
+            android:layout_marginTop="96dp"
+            android:layout_gravity="top">
+
+            <TextView
+                android:id="@+id/r2"
+                android:layout_width="179dp"
+                android:layout_height="31dp"
+                android:gravity="left|top"
+                android:includeFontPadding="false"
+                android:lineHeight="21dp"
+                android:text="Redeem Now"
+                android:textColor="#FFFFFFFF"
+                android:textSize="14dp" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="204dp"
+        android:layout_marginTop="342dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_17" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="204dp"
+        android:layout_marginTop="478dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_18" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="204dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_19" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="290dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_20" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="431dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_21" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="265pt"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Top Deals"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="280pt">
+
+    </androidx.viewpager2.widget.ViewPager2>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/refresh"
+        android:text="Refresh" />
+
+
+</FrameLayout>

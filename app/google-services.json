@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "749995309345",
+    "firebase_url": "https://reward-point-86f51-default-rtdb.firebaseio.com",
+    "project_id": "reward-point-86f51",
+    "storage_bucket": "reward-point-86f51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749995309345:android:af5c9822a2ba61af45e660",
+        "android_client_info": {
+          "package_name": "com.example.sandy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2AnF-P4skviLlGMA4uokWMGh5lWBEsbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749995309345:android:dfe823e17972d21445e660",
+        "android_client_info": {
+          "package_name": "com.example.trial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2AnF-P4skviLlGMA4uokWMGh5lWBEsbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

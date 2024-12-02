@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Sandy" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+    <!-- Dark mode-->
+    <!-- Screen background if dark mode on-->
+    <style name="SCREEN">
+        <item name="android:background">#232323</item>
+    </style>
+    <!-- Text background if dark mode on-->
+    <style name="TEXT">
+        <item name="android:background">#FFFFFF</item>
+    </style>
+</resources>
